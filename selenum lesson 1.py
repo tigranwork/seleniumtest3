@@ -5,6 +5,7 @@ driver = Chrome('venv/Drivers/chromedriver.exe')
 with Chrome('venv/Drivers/chromedriver.exe') as driver:
     driver.get("https://www.udemy.com")
     driver.maximize_window()
+    //test
     # username = driver.find_element_by_id('email--1')
     # username.send_keys('tigran.gagiyan@mail.ru')
     # password = driver.find_element_by_id('id_password')
