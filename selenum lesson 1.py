@@ -10,4 +10,3 @@ with Chrome() as driver:
     submit = driver.find_element_by_xpath('//*[@id="login"]/button')
     submit.click()
     driver.quit()
-    
